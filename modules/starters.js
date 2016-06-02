@@ -92,7 +92,7 @@ module.exports = function () {
 
   function commands(info) {
     if (!info.type) {
-      console.log('Still in maintenance, sorry'.red);
+      console.log('Still in maintenance, sorry :('.red);
       return;
     }
     if (info.isMarkup) {
